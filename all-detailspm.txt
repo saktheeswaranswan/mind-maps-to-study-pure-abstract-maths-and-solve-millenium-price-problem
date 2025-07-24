@@ -1,0 +1,417 @@
+You said:
+tell real analysis used in topology and group theory sed in topology 
+ChatGPT said:
+
+Real analysis plays a foundational role in topology and group theory, particularly when those fields interact with geometry, functional analysis, or Lie theory. Let’s break this into parts:
+🔹 Real Analysis in Topology
+1. Metric Spaces (Real Analysis → Topology)
+
+    Real analysis studies convergence and continuity using ε-δ definitions. These lead naturally to:
+
+        Metric spaces: A set with a distance function d(x, y) satisfying:
+
+            Positivity, symmetry, triangle inequality
+
+        Real analysis defines open sets, convergent sequences, continuity, etc., in ℝⁿ. Topology generalizes these using open sets.
+
+👉 Used to define:
+
+    Topological spaces
+
+    Continuous functions
+
+    Compactness and connectedness (generalized from ℝ)
+
+2. Compactness & Convergence
+
+    In real analysis:
+
+        A closed interval [a, b] is compact (Heine-Borel Theorem).
+
+        A sequence converges iff it's Cauchy (in complete metric spaces).
+
+    In topology:
+
+        Compactness is defined via open covers.
+
+        Sequential compactness leads to limit point topology, first-countability, etc.
+
+👉 Real analysis tools help build intuition and proofs about:
+
+    Compactness
+
+    Limits
+
+    Continuity in abstract topological spaces
+
+3. Connectedness
+
+    ℝ is connected because there are no nontrivial clopen sets.
+
+    Real analysis gives examples like intermediate value theorem.
+
+    These
+
+You said:
+the percentasge of use and table form
+ChatGPT said:
+
+Here’s a table showing the usage of real analysis concepts in topology and group theory, with estimated percentages of importance and explanation of usage:
+📊 Real Analysis Usage in Topology and Group Theory
+Real Analysis Concept	% Use in Topology	% Use in Group Theory	How It Is Used
+Metric Spaces	30%	5%	Topology of ℝⁿ, convergence, continuity; used to define topological groups
+Continuity (ε-δ, limits)	15%	10%	Definition of continuous maps in topological spaces; homomorphisms in topological groups
+Compactness	15%	5%	Heine–Borel inspires topological compactness; important in compact groups
+Connectedness	10%	2%	IVT in analysis → connected topological spaces; helps understand path components
+Sequences & Convergence	10%	3%	Sequential convergence helps in defining continuity and limit points
+Completeness (Cauchy seq.)	5%	3%	Underpins Banach spaces, topology of function spaces, used in Lie groups
+Measure & Integration	5%	10%	Haar measure in topological groups, probability measures on groups
+Differentiation / Smoothness	5%	15%	Used in Lie groups (smooth manifolds with group structure)
+Function Spaces (ℝ^X)	5%	2%	Topologies on function spaces, convergence in distribution sense
+✅ Interpretation Summary
+
+    Topology heavily relies on real analysis (~100%) for intuition, especially from ℝ and metric spaces.
+
+    Group theory uses real analysis mainly in topological groups, Lie groups, and functional analysis contexts.
+
+Would you like a version focused only on Lie groups, topological groups, or maybe one that adds algebraic topology?
+You said:
+percentage of real analysis and group theory in  toplogy in table form 
+ChatGPT said:
+
+Here is a table showing the percentage contribution of Real Analysis and Group Theory in Topology, focusing on how much each subject influences or is used within various branches or concepts of topology.
+📊 Influence of Real Analysis and Group Theory in Topology
+Topology Concept / Area	% Real Analysis Influence	% Group Theory Influence	Explanation
+Metric Topology	80%	5%	Real analysis forms the foundation: metric spaces, convergence, continuity
+General Topology (Point-set)	60%	10%	Real analysis motivates open sets, limits; groups appear in homeomorphisms
+Compactness & Connectedness	70%	5%	Originates from analysis (e.g., Heine–Borel, IVT); less group influence
+Function Spaces	65%	10%	Real analysis defines function convergence; groups may act on function spaces
+Topological Groups	40%	60%	Blend of continuous group operations (group theory) and topology (analysis)
+Lie Groups / Differential Topology	30%	70%	Manifolds from analysis, but group structure dominates
+Algebraic Topology (e.g. π₁, H₁)	20%	80%	Built mainly from group theory (homotopy groups, fundamental group, etc.)
+Homotopy & Homology	30%	70%	Concepts like loops and maps use group structure (e.g., π₁(X) is a group)
+Manifold Topology	50%	30%	Smooth structure from analysis, symmetry and structure from group theory
+Fiber Bundles / Sheaf Theory	50%	50%	Real analysis for local behavior; groups for structure and transformations
+🧠 Summary
+Field	Real Analysis %	Group Theory %
+Topology Overall	≈ 55%	≈ 45%
+
+    Real Analysis: Strong in metric, compactness, and continuity theory.
+
+    Group Theory: Strong in algebraic topology, topological groups, symmetry.
+
+Let me know if you want a visual pie chart or Venn diagram!
+You said:
+in iferential geometry 
+ChatGPT said:
+
+Great! Here's a table showing the percentage influence of Real Analysis and Group Theory in Differential Geometry, a field that beautifully blends calculus (real analysis) and symmetry (group theory).
+📊 Influence of Real Analysis and Group Theory in Differential Geometry
+Area in Differential Geometry	% Real Analysis Influence	% Group Theory Influence	Explanation
+Smooth Manifolds	70%	30%	Built from smooth charts, calculus on manifolds; groups act on manifolds
+Tangent Spaces & Derivatives	80%	20%	Defined via directional derivatives, partials; Lie groups act on them
+Riemannian Geometry	75%	25%	Inner products on tangent spaces use analysis; isometry groups apply symmetry
+Curvature (Riemann, Ricci)	85%	15%	Defined via partial derivatives of connections; Lie algebra methods arise
+Geodesics & Connections	80%	20%	Derived from calculus of variations and Christoffel symbols
+Lie Groups & Lie Algebras	40%	60%	Smooth manifolds with group structures; deeply algebraic
+Symmetries & Isometries	50%	50%	Involves group actions and transformations preserving geometry
+Gauge Theory & Fiber Bundles	50%	50%	Real analysis for local sections, groups for structure and connections
+Differential Forms & Stokes’ Thm	90%	10%	Heavily analysis-driven; integration over manifolds
+Homogeneous & Symmetric Spaces	40%	60%	Quotients of Lie groups define symmetric spaces
+🧠 Summary
+Field	Real Analysis %	Group Theory %
+Differential Geometry	≈ 65%	≈ 35%
+✅ Interpretation
+
+    Real Analysis dominates: Calculus on manifolds, derivatives, integrals, smooth functions.
+
+    Group Theory enhances: Symmetries, structure via Lie groups and transformation groups.
+
+Would you like this table specifically tailored to Riemannian geometry, General Relativity, or gauge theory next?
+You said:
+tell in other abstract subjects of puremaths 
+ChatGPT said:
+
+Here's a structured breakdown showing how Real Analysis and Group Theory influence various abstract branches of pure mathematics, with estimated percentages and short explanations. This gives you a birds-eye view of their foundational roles across pure math.
+📊 Influence of Real Analysis and Group Theory in Abstract Pure Math Subjects
+Abstract Subject	% Real Analysis	% Group Theory	Explanation
+Topology	55%	45%	Real analysis provides ε-δ continuity; group theory drives algebraic/topological groups, π₁.
+Differential Geometry	65%	35%	Real analysis used in manifolds, curvature; groups appear in symmetries and Lie groups.
+Functional Analysis	85%	15%	Infinite-dimensional analysis, Banach/Hilbert spaces; some Lie group actions on operators.
+Measure Theory & Integration	90%	10%	Real analysis core: Lebesgue measure, convergence theorems; groups in Haar measure, ergodic theory.
+Algebraic Topology	25%	75%	Mostly group-theoretic: homotopy, homology, π₁(X), exact sequences.
+Algebraic Geometry	20%	80%	Structure from commutative algebra and groups (automorphisms, Galois groups).
+Number Theory (Abstract)	10%	90%	Galois groups, modular groups, arithmetic groups dominate; little real analysis.
+Category Theory	5%	25%	Slight influence via continuous functions and group actions; mostly independent.
+Representation Theory	20%	80%	Study of how groups act on vector spaces; Fourier analysis connects with real analysis.
+Lie Theory	40%	60%	Smooth structures from analysis; algebraic structure from groups and algebras.
+Set Theory / Logic / Foundations	10%	5%	Analysis for construction of ℝ; groups rarely used directly.
+Homological Algebra	15%	85%	Chain complexes, cohomology mostly group/module-based.
+Ergodic Theory	70%	30%	Measurable dynamics (real analysis) + group actions (group theory).
+Combinatorics (Algebraic)	10%	50%	Symmetry groups, group actions; less analysis unless dealing with generating functions.
+🧠 Summary Table
+Field Category	Real Analysis %	Group Theory %	Dominant Aspect
+Analysis-based Subjects	80–90%	10–20%	Functional Analysis, Measure
+Group-based Subjects	20–30%	70–90%	Algebraic Topology, Galois
+Balanced Fields	40–60% each	40–60%	Topology, Lie Theory, Geometry
+
+Would you like a diagram or chart showing these relationships visually, like a heatmap or radial graph?
+You said:
+in millenium price problems in table form 
+ChatGPT said:
+
+Here’s a detailed table showing the influence of Real Analysis and Group Theory on the seven Millennium Prize Problems, with percentage estimates and brief explanations.
+📊 Real Analysis and Group Theory in Millennium Prize Problems
+Millennium Problem	% Real Analysis	% Group Theory	Explanation
+1. Riemann Hypothesis	20%	80%	Zeta function has analytic parts, but the deep structure relates to Galois groups, modular forms, symmetry in number theory.
+2. P vs NP	5%	0%	Mainly in theoretical computer science and logic; very little real analysis or group theory.
+3. Navier–Stokes Existence and Smoothness	95%	5%	Real analysis dominates: partial differential equations, fluid flow, smoothness, Sobolev spaces.
+4. Yang–Mills Existence and Mass Gap	60%	40%	Uses real analysis for field theory, L² spaces; group theory for gauge symmetry, Lie groups.
+5. Hodge Conjecture	40%	60%	Involves real/complex algebraic geometry (analysis), and topology with group cohomology.
+6. Birch and Swinnerton-Dyer Conjecture	30%	70%	Deeply algebraic: elliptic curves, Galois groups, L-functions; analysis enters via special values.
+7. Poincaré Conjecture (solved)	60%	40%	Perelman's solution used Ricci flow (analysis), but fundamental group plays a central role.
+🧠 Summary Table
+Problem Area	Real Analysis %	Group Theory %	Notes
+Number Theory (Riemann, BSD)	20–30%	70–80%	Mostly algebraic/group-theoretic
+Geometry & Topology (Poincaré, Hodge)	40–60%	40–60%	Balanced use of analysis and group theory
+Physics-inspired (Yang–Mills, NS)	60–95%	5–40%	Strong real analysis from PDEs, with symmetries
+Computational Complexity (P vs NP)	5%	0%	Minimal influence from either field
+✅ Observations
+
+    Real Analysis dominates in PDE-based problems (Navier–Stokes, Yang–Mills).
+
+    Group Theory dominates in number theory problems (Riemann, BSD).
+
+    Balanced use in topological and geometric problems (Poincaré, Hodge).
+
+    P vs NP stands outside both domains.
+
+Would you like this in a colored matrix or radial spider chart for visual clarity?
+You said:
+You said:
+tell real analysis used in topology and group theory sed in topology 
+ChatGPT said:
+
+Real analysis plays a foundational role in topology and group theory, particularly when those fields interact with geometry, functional analysis, or Lie theory. Let’s break this into parts:
+🔹 Real Analysis in Topology
+1. Metric Spaces (Real Analysis → Topology)
+
+    Real analysis studies convergence and continuity using ε-δ definitions. These lead naturally to:
+
+        Metric spaces: A set with a distance function d(x, y) satisfying:
+
+            Positivity, symmetry, triangle inequality
+
+        Real analysis defines open sets, convergent sequences, continuity, etc., in ℝⁿ. Topology generalizes these using open sets.
+
+👉 Used to define:
+
+    Topological spaces
+
+    Continuous functions
+
+    Compactness and connectedness (generalized from ℝ)
+
+2. Compactness & Convergence
+
+    In real analysis:
+
+        A closed interval [a, b] is compact (Heine-Borel Theorem).
+
+        A sequence converges iff it's Cauchy (in complete metric spaces).
+
+    In topology:
+
+        Compactness is defined via open covers.
+
+        Sequential compactness leads to limit point topology, first-countability, etc.
+
+👉 Real analysis tools help build intuition and proofs about:
+
+    Compactness
+
+    Limits
+
+    Continuity in abstract topological spaces
+
+3. Connectedness
+
+    ℝ is connected because there are no nontrivial clopen sets.
+
+    Real analysis gives examples like intermediate value theorem.
+
+    These
+
+You said:
+the percentasge of use and table form
+ChatGPT said:
+
+Here’s a table showing the usage of real analysis concepts in topology and group theory, with estimated percentages of importance and explanation of usage:
+📊 Real Analysis Usage in Topology and Group Theory
+Real Analysis Concept	% Use in Topology	% Use in Group Theory	How It Is Used
+Metric Spaces	30%	5%	Topology of ℝⁿ, convergence, continuity; used to define topological groups
+Continuity (ε-δ, limits)	15%	10%	Definition of continuous maps in topological spaces; homomorphisms in topological groups
+Compactness	15%	5%	Heine–Borel inspires topological compactness; important in compact groups
+Connectedness	10%	2%	IVT in analysis → connected topological spaces; helps understand path components
+Sequences & Convergence	10%	3%	Sequential convergence helps in defining continuity and limit points
+Completeness (Cauchy seq.)	5%	3%	Underpins Banach spaces, topology of function spaces, used in Lie groups
+Measure & Integration	5%	10%	Haar measure in topological groups, probability measures on groups
+Differentiation / Smoothness	5%	15%	Used in Lie groups (smooth manifolds with group structure)
+Function Spaces (ℝ^X)	5%	2%	Topologies on function spaces, convergence in distribution sense
+✅ Interpretation Summary
+
+    Topology heavily relies on real analysis (~100%) for intuition, especially from ℝ and metric spaces.
+
+    Group theory uses real analysis mainly in topological groups, Lie groups, and functional analysis contexts.
+
+Would you like a version focused only on Lie groups, topological groups, or maybe one that adds algebraic topology?
+You said:
+percentage of real analysis and group theory in  toplogy in table form 
+ChatGPT said:
+
+Here is a table showing the percentage contribution of Real Analysis and Group Theory in Topology, focusing on how much each subject influences or is used within various branches or concepts of topology.
+📊 Influence of Real Analysis and Group Theory in Topology
+Topology Concept / Area	% Real Analysis Influence	% Group Theory Influence	Explanation
+Metric Topology	80%	5%	Real analysis forms the foundation: metric spaces, convergence, continuity
+General Topology (Point-set)	60%	10%	Real analysis motivates open sets, limits; groups appear in homeomorphisms
+Compactness & Connectedness	70%	5%	Originates from analysis (e.g., Heine–Borel, IVT); less group influence
+Function Spaces	65%	10%	Real analysis defines function convergence; groups may act on function spaces
+Topological Groups	40%	60%	Blend of continuous group operations (group theory) and topology (analysis)
+Lie Groups / Differential Topology	30%	70%	Manifolds from analysis, but group structure dominates
+Algebraic Topology (e.g. π₁, H₁)	20%	80%	Built mainly from group theory (homotopy groups, fundamental group, etc.)
+Homotopy & Homology	30%	70%	Concepts like loops and maps use group structure (e.g., π₁(X) is a group)
+Manifold Topology	50%	30%	Smooth structure from analysis, symmetry and structure from group theory
+Fiber Bundles / Sheaf Theory	50%	50%	Real analysis for local behavior; groups for structure and transformations
+🧠 Summary
+Field	Real Analysis %	Group Theory %
+Topology Overall	≈ 55%	≈ 45%
+
+    Real Analysis: Strong in metric, compactness, and continuity theory.
+
+    Group Theory: Strong in algebraic topology, topological groups, symmetry.
+
+Let me know if you want a visual pie chart or Venn diagram!
+You said:
+in iferential geometry 
+ChatGPT said:
+
+Great! Here's a table showing the percentage influence of Real Analysis and Group Theory in Differential Geometry, a field that beautifully blends calculus (real analysis) and symmetry (group theory).
+📊 Influence of Real Analysis and Group Theory in Differential Geometry
+Area in Differential Geometry	% Real Analysis Influence	% Group Theory Influence	Explanation
+Smooth Manifolds	70%	30%	Built from smooth charts, calculus on manifolds; groups act on manifolds
+Tangent Spaces & Derivatives	80%	20%	Defined via directional derivatives, partials; Lie groups act on them
+Riemannian Geometry	75%	25%	Inner products on tangent spaces use analysis; isometry groups apply symmetry
+Curvature (Riemann, Ricci)	85%	15%	Defined via partial derivatives of connections; Lie algebra methods arise
+Geodesics & Connections	80%	20%	Derived from calculus of variations and Christoffel symbols
+Lie Groups & Lie Algebras	40%	60%	Smooth manifolds with group structures; deeply algebraic
+Symmetries & Isometries	50%	50%	Involves group actions and transformations preserving geometry
+Gauge Theory & Fiber Bundles	50%	50%	Real analysis for local sections, groups for structure and connections
+Differential Forms & Stokes’ Thm	90%	10%	Heavily analysis-driven; integration over manifolds
+Homogeneous & Symmetric Spaces	40%	60%	Quotients of Lie groups define symmetric spaces
+🧠 Summary
+Field	Real Analysis %	Group Theory %
+Differential Geometry	≈ 65%	≈ 35%
+✅ Interpretation
+
+    Real Analysis dominates: Calculus on manifolds, derivatives, integrals, smooth functions.
+
+    Group Theory enhances: Symmetries, structure via Lie groups and transformation groups.
+
+Would you like this table specifically tailored to Riemannian geometry, General Relativity, or gauge theory next?
+You said:
+tell in other abstract subjects of puremaths 
+ChatGPT said:
+
+Here's a structured breakdown showing how Real Analysis and Group Theory influence various abstract branches of pure mathematics, with estimated percentages and short explanations. This gives you a birds-eye view of their foundational roles across pure math.
+📊 Influence of Real Analysis and Group Theory in Abstract Pure Math Subjects
+Abstract Subject	% Real Analysis	% Group Theory	Explanation
+Topology	55%	45%	Real analysis provides ε-δ continuity; group theory drives algebraic/topological groups, π₁.
+Differential Geometry	65%	35%	Real analysis used in manifolds, curvature; groups appear in symmetries and Lie groups.
+Functional Analysis	85%	15%	Infinite-dimensional analysis, Banach/Hilbert spaces; some Lie group actions on operators.
+Measure Theory & Integration	90%	10%	Real analysis core: Lebesgue measure, convergence theorems; groups in Haar measure, ergodic theory.
+Algebraic Topology	25%	75%	Mostly group-theoretic: homotopy, homology, π₁(X), exact sequences.
+Algebraic Geometry	20%	80%	Structure from commutative algebra and groups (automorphisms, Galois groups).
+Number Theory (Abstract)	10%	90%	Galois groups, modular groups, arithmetic groups dominate; little real analysis.
+Category Theory	5%	25%	Slight influence via continuous functions and group actions; mostly independent.
+Representation Theory	20%	80%	Study of how groups act on vector spaces; Fourier analysis connects with real analysis.
+Lie Theory	40%	60%	Smooth structures from analysis; algebraic structure from groups and algebras.
+Set Theory / Logic / Foundations	10%	5%	Analysis for construction of ℝ; groups rarely used directly.
+Homological Algebra	15%	85%	Chain complexes, cohomology mostly group/module-based.
+Ergodic Theory	70%	30%	Measurable dynamics (real analysis) + group actions (group theory).
+Combinatorics (Algebraic)	10%	50%	Symmetry groups, group actions; less analysis unless dealing with generating functions.
+🧠 Summary Table
+Field Category	Real Analysis %	Group Theory %	Dominant Aspect
+Analysis-based Subjects	80–90%	10–20%	Functional Analysis, Measure
+Group-based Subjects	20–30%	70–90%	Algebraic Topology, Galois
+Balanced Fields	40–60% each	40–60%	Topology, Lie Theory, Geometry
+
+Would you like a diagram or chart showing these relationships visually, like a heatmap or radial graph?
+You said:
+in millenium price problems in table form 
+ChatGPT said:
+
+Here’s a detailed table showing the influence of Real Analysis and Group Theory on the seven Millennium Prize Problems, with percentage estimates and brief explanations.
+📊 Real Analysis and Group Theory in Millennium Prize Problems
+Millennium Problem	% Real Analysis	% Group Theory	Explanation
+1. Riemann Hypothesis	20%	80%	Zeta function has analytic parts, but the deep structure relates to Galois groups, modular forms, symmetry in number theory.
+2. P vs NP	5%	0%	Mainly in theoretical computer science and logic; very little real analysis or group theory.
+3. Navier–Stokes Existence and Smoothness	95%	5%	Real analysis dominates: partial differential equations, fluid flow, smoothness, Sobolev spaces.
+4. Yang–Mills Existence and Mass Gap	60%	40%	Uses real analysis for field theory, L² spaces; group theory for gauge symmetry, Lie groups.
+5. Hodge Conjecture	40%	60%	Involves real/complex algebraic geometry (analysis), and topology with group cohomology.
+6. Birch and Swinnerton-Dyer Conjecture	30%	70%	Deeply algebraic: elliptic curves, Galois groups, L-functions; analysis enters via special values.
+7. Poincaré Conjecture (solved)	60%	40%	Perelman's solution used Ricci flow (analysis), but fundamental group plays a central role.
+🧠 Summary Table
+Problem Area	Real Analysis %	Group Theory %	Notes
+Number Theory (Riemann, BSD)	20–30%	70–80%	Mostly algebraic/group-theoretic
+Geometry & Topology (Poincaré, Hodge)	40–60%	40–60%	Balanced use of analysis and group theory
+Physics-inspired (Yang–Mills, NS)	60–95%	5–40%	Strong real analysis from PDEs, with symmetries
+Computational Complexity (P vs NP)	5%	0%	Minimal influence from either field
+✅ Observations
+
+    Real Analysis dominates in PDE-based problems (Navier–Stokes, Yang–Mills).
+
+    Group Theory dominates in number theory problems (Riemann, BSD).
+
+    Balanced use in topological and geometric problems (Poincaré, Hodge).
+
+    P vs NP stands outside both domains.
+
+Would you like this in a colored matrix or radial spider chart for visual clarity? give in github readme form in table 
+ChatGPT said:
+
+Here's the GitHub README-style table (in markdown format) showing the influence of Real Analysis and Group Theory on the Millennium Prize Problems, suitable for pasting into a README.md file:
+
+# 📊 Real Analysis vs Group Theory in Millennium Prize Problems
+
+This table estimates how much **Real Analysis** and **Group Theory** contribute to each of the **seven Millennium Prize Problems**.
+
+| Millennium Problem                               | 🧮 Real Analysis % | ♾️ Group Theory % | 💡 Explanation                                                                                 |
+|--------------------------------------------------|--------------------|-------------------|-----------------------------------------------------------------------------------------------|
+| 1. **Riemann Hypothesis**                        | 20%                | 80%               | Analytic function theory involved, but deep roots in Galois groups, modular symmetries.       |
+| 2. **P vs NP**                                   | 5%                 | 0%                | Mostly logic and computational complexity theory; barely touches analysis or groups.          |
+| 3. **Navier–Stokes Existence & Smoothness**      | 95%                | 5%                | Dominated by PDEs, smooth functions, Sobolev spaces – a pure real analysis challenge.         |
+| 4. **Yang–Mills Existence & Mass Gap**           | 60%                | 40%               | Uses Hilbert space theory (analysis) and symmetry/gauge theory via Lie groups (group theory). |
+| 5. **Hodge Conjecture**                          | 40%                | 60%               | Analysis for differential forms; group cohomology in topology and algebraic geometry.         |
+| 6. **Birch and Swinnerton-Dyer Conjecture**      | 30%                | 70%               | Elliptic curves, L-functions, and deep group-theoretic structure (Galois, arithmetic groups).  |
+| 7. **Poincaré Conjecture (solved)**              | 60%                | 40%               | Solved using Ricci flow (analysis), with topology based on the fundamental group.             |
+
+---
+
+## 🧠 Summary by Area
+
+| Area                         | Avg. Real Analysis % | Avg. Group Theory % | Notes                                              |
+|------------------------------|----------------------|----------------------|----------------------------------------------------|
+| Number Theory (1, 6)         | 25%                  | 75%                  | Galois theory, modular forms, arithmetic symmetry. |
+| Geometry/Topology (5, 7)     | 50%                  | 50%                  | Equal blend of analysis (Ricci flow, Hodge) and algebra. |
+| Physics-Based (3, 4)         | 77.5%                | 22.5%                | Heavily PDE-based (Navier–Stokes), with symmetry (Yang–Mills). |
+| Computation (2)              | 5%                   | 0%                   | Neither group theory nor real analysis are central. |
+
+---
+
+> 🔍 **Legend**:  
+> - **Real Analysis** = Calculus, PDEs, smoothness, measure, functional analysis.  
+> - **Group Theory** = Abstract algebra, symmetry, Galois theory, Lie groups.
+
+✅ You can paste this directly into a GitHub README.md for a clean, informative layout.
+
+Would you like a radial chart, SVG bar graph, or LaTeX version as well?
